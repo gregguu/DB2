@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.0">
   <diagram name="Page-1" id="hQaIhxD0elEkMc25h9xF">
-    <mxGraphModel dx="4307" dy="2507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -946,7 +946,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SFygsmRM32eyTd22V022-374" value="Branch" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="530" width="180" height="150" as="geometry" />
+          <mxGeometry x="70" y="530" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="SFygsmRM32eyTd22V022-375" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="SFygsmRM32eyTd22V022-374">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -1215,7 +1215,7 @@
             <mxPoint x="940" y="865" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SFygsmRM32eyTd22V022-488" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="SFygsmRM32eyTd22V022-488" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="SFygsmRM32eyTd22V022-381">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-250" y="210" as="sourcePoint" />
             <mxPoint x="-30" y="640" as="targetPoint" />
@@ -1225,6 +1225,47 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-228" y="227" as="sourcePoint" />
             <mxPoint x="310" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-506" value="IsOn" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="600" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-507" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" vertex="1" parent="SFygsmRM32eyTd22V022-506">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-508" value="PK,FK1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="SFygsmRM32eyTd22V022-507">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-509" value="StationID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="SFygsmRM32eyTd22V022-507">
+          <mxGeometry x="60" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-510" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;" vertex="1" parent="SFygsmRM32eyTd22V022-506">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-511" value="PK,FK2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="SFygsmRM32eyTd22V022-510">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-512" value="BranchID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="SFygsmRM32eyTd22V022-510">
+          <mxGeometry x="60" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-519" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1.002;exitY=-0.114;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="SFygsmRM32eyTd22V022-320" target="SFygsmRM32eyTd22V022-507">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-550" y="265" as="sourcePoint" />
+            <mxPoint x="-470" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFygsmRM32eyTd22V022-520" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFygsmRM32eyTd22V022-375" target="SFygsmRM32eyTd22V022-510">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-240" y="207" as="sourcePoint" />
+            <mxPoint x="-170" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
